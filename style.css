@@ -76,7 +76,7 @@ button:hover {
 
 /* heading */
 h3,
-label[for="new-task"] {
+label[for="form-task"] {
   color: #333;
   font-weight: 700;
   font-size: 15px;
@@ -105,12 +105,12 @@ input[type="text"]:focus {
 
 
 /* new task */
-label[for="new-task"] {
+label[for="form-task"] {
   display: block;
   margin: 0 0 20px;
 }
 
-input#new-task {
+input#form-task {
   width: 318px;
 }
 
@@ -167,11 +167,11 @@ ul li input[type="text"] {
   display: none;
 }
 
-ul li.menu__item input[type="text"] {
+ul li.editMode input[type="text"] {
   display: inline-block;
   width: 224px;
 }
 
-ul li.menu__item label {
+ul li.editMode label {
   display: none;
 }
